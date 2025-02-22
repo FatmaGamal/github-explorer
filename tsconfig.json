@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+    ],
+    "compilerOptions": {
+      "jsx": "react-jsx", // or "react" if using older React versions
+      "jsxImportSource": "react", // (For React 17+ with the new JSX transform)
+      "allowJs": true,
+      "skipLibCheck": true,
+      "paths": {
+        "react": ["./node_modules/@types/react"]
+      },
+    }
+}
